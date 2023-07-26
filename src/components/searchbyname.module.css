@@ -1,0 +1,64 @@
+#myform5 {
+  height: 110vh;
+  width: 100%;
+  background: linear-gradient(hotpink, violet);
+  /* background: rgb(250,251,255); */
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+#myform5 > form {
+  height: 90px;
+  width: 300px;
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  display: block;
+  /* box-shadow: 0px 0px 5px white; */
+}
+#myform5 > form > tr > td {
+  padding: 15px;
+}
+#myform5 input {
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid black;
+  color: black;
+  background: white;
+}
+#myform5 input:focus {
+  outline: none;
+  color: black;
+}
+#myform5 button {
+  height: 30px;
+  width: 80px;
+  background-color: #177ce2;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px white;
+  margin-top: 1px;
+  color: white;
+}
+#myform5 > form > tr > th {
+  padding-bottom: 60px;
+}
+
+#myform5 > #searchinput {
+display: inline;
+}
+#myform5 > #searchinput > button {
+  display: flex;
+  align-items: center;
+  
+}
+h1{
+    background-color: aqua;
+    display:inline-block;
+    padding: 20px;
+    padding-right: 200px;
+}
